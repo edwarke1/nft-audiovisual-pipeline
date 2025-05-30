@@ -1,40 +1,48 @@
-# NFT Audio-Visual Pipeline
+# NFT AudioVisual Pipeline
 
-This project auto-pairs NFT artwork
-(static .png) with original audio
-(.mp3), matching moods and rendering
-final .mp4 files ready for minting.
+This project pairs NFT artwork (PNG images) with original audio (MP3)  
+to automatically generate combined MP4 files ready for minting.
 
----
+## Folder Setup
 
-## Features
+- `/audio/` → MP3 audio files
+- `/images/` → PNG image files
+- `/output/` → final MP4 files
 
-✅ Analyze audio: tempo, mood, energy  
-✅ Analyze images: color palette,
-brightness  
-✅ Smart match visuals + audio  
-✅ Batch render combined .mp4 videos  
-✅ Generate summary reports + logs
+## How to Run
 
----
+All-in-one:
+```bash
+python3 run_all.sh---
 
-## Folder Structure
-
-NFT_AudioVisual_Pipeline/
-├── audio/ (.mp3 files)  
-├── images/ (.png files)  
-├── output/ (final .mp4 files)  
-├── analyze_audio.py  
-├── analyze_images.py  
-├── run_matching_and_render.py  
-├── requirements.txt  
-├── README.md  
-├── GITHUB_UPLOAD.md
+3️⃣ Save:
+- `Ctrl + O` → write out  
+- `Enter` → confirm filename  
+- `Ctrl + X` → exit
 
 ---
 
-## Setup
+### ✅ Then Stage and Push
 
-Clone the repo:nano README.md
-# NFT Audio-Visual Pipeline
+After saving:
+```bash
+git add README.md .gitignore
+git commit -m "Update README and add .gitignore"
+git push origin main
+# NFT AudioVisual Pipeline
+
+This project pairs NFT artwork (PNG images) with original audio (MP3)  
+to automatically generate combined MP4 files ready for minting.
+
+## Folder Setup
+
+- `/audio/` → MP3 audio files
+- `/images/` → PNG image files
+- `/output/` → final MP4 files
+
+## How to Run
+
+All-in-one:
+```bash
+python3 run_all.sh# NFT Audio-Visual Pipeline
 Setup and run scripts as described.

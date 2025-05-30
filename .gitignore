@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Mac system files
+.DS_Store
+
+# Virtual environments
+venv/
+.env/
+
+# Generated outputs
+output/
+*.mp4
+
+# Local CSV analysis files
+audio_traits.csv
+image_palette_traits.csv
